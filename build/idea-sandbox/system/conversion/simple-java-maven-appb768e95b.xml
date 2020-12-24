@@ -1,0 +1,19 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" timestamp="1608054652231" />
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/.idea/workspace.xml" timestamp="1608055521743" />
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/.idea/vcs.xml" timestamp="1607853477594" />
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/.idea/modules.xml" timestamp="1607853511947" />
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/.idea/misc.xml" timestamp="1607853477572" />
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/.idea/libraries/Maven__junit_junit_4_11.xml" timestamp="1608054652223" />
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/.idea/compiler.xml" timestamp="1607853511933" />
+    <file path="/Users/himansgo/Desktop/AbeWorkSpace/simple-java-maven-app/my-app.iml" timestamp="1608054652198" />
+  </project-files>
+</conversion>

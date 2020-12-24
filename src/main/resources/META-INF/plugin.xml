@@ -1,0 +1,35 @@
+<idea-plugin>
+    <id>com.amazon.maven-dependecy-plugin</id>
+    <name>maven updater</name>
+    <vendor email="himansgo@amazon.com" url="https://www.amazon.com">Amazon</vendor>
+
+    <description><![CDATA[
+    Plugin to notify for new maven versions for intellij
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+
+    <!--    Dependencies -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.idea.maven</depends>
+
+    <!--    Resource bundle -->
+    <resource-bundle>MavenVersionInspectionBundle</resource-bundle>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Inspections -->
+        <localInspection
+                shortName="MavenVersionUpdateInspection"
+                displayName="Maven Version Updater"
+                groupName="Maven"
+                enabledByDefault="true"
+                language="XML"
+                level="WARNING"
+                implementationClass="co.simpleq.mvn.dependency.updater.MavenDependencyVersionUpdateInspection"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

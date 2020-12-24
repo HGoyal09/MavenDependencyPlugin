@@ -1,0 +1,20 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="193.6494" until-build="193.*"/>
+  <id>com.amazon.maven-dependecy-plugin</id>
+  <name>maven updater</name>
+  <vendor email="himansgo@amazon.com" url="https://www.amazon.com">Amazon</vendor>
+  <description>
+    Plugin to notify for new maven versions for intellij
+    </description>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>org.jetbrains.idea.maven</depends>
+  <resource-bundle>MavenVersionInspectionBundle</resource-bundle>
+  <extensions defaultExtensionNs="com.intellij">
+    <localInspection shortName="MavenVersionUpdateInspection" displayName="Maven Version Updater" groupName="Maven" enabledByDefault="true" language="XML" level="WARNING" implementationClass="co.simpleq.mvn.dependency.updater.MavenDependencyVersionUpdateInspection"/>
+  </extensions>
+  <actions/>
+</idea-plugin>
